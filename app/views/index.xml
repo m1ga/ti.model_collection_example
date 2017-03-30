@@ -10,15 +10,17 @@
 					<ImageView bindId="image" class="img"/>
 					<Label bindId="title" class="title"/>
 					<Label bindId="subtitle" class="subtitle"/>
+					<Label class="deleteText" text="click to delete"/>
 				</ItemTemplate>
 			</Templates>
 
 			<ListSection id="section" dataCollection="library">
 				<ListItem rowid="{id}" title:text="{title}" subtitle:text="{subtitle}" image:image="{image}"/>
 			</ListSection>
-		</ListView>
+		</ListView> 
 
 		<Button id="btn_add" title="add"/>
+		<Button id="btn_dump" title="dump"/>
 		<Button id="btn_clear" title="clear"/>
 	</Window>
 </Alloy>

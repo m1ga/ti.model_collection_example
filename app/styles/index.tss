@@ -1,5 +1,6 @@
 "Window" : {
-	backgroundColor: "white"
+	backgroundColor: "white",
+	fullscreen:true
 }
 "Label" : {
 	width: Ti.UI.SIZE,
@@ -20,7 +21,7 @@
 	height: 80,
 	backgroundColor: "#aaa"
 }
-"ListItem" : {
+"ListItem" : { 
 	height: 80
 }
 "ListView" : {
@@ -33,4 +34,16 @@
 "#btn_clear" : {
 	bottom: 0,
 	right: 10
+}
+
+"#btn_dump": {
+	bottom:0
+}
+
+".deleteText": {
+	right:10,
+	color:"#999",
+	font:{
+		fontSize: 10
+	}
 }
