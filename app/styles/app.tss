@@ -1,0 +1,13 @@
+"Window" : {
+	backgroundColor: "white",
+	fullscreen:true
+}
+"Label" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#btn_close": {
+	top:0
+}

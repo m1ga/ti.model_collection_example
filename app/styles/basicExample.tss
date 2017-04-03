@@ -1,0 +1,42 @@
+
+".title" : {
+	left: 85,
+	top: 5
+}
+".subtitle" : {
+	left: 85,
+	bottom: 5
+}
+".img" : {
+	left: 0,
+	width: 80,
+	height: 80,
+	backgroundColor: "#aaa"
+}
+"ListItem" : {
+	height: 80
+}
+"ListView" : {
+	top: 50,
+	bottom: 50
+}
+"#btn_add" : {
+	bottom: 0,
+	left: 10
+}
+"#btn_clear" : {
+	bottom: 0,
+	right: 10
+}
+
+"#btn_dump": {
+	bottom:0
+}
+
+".deleteText": {
+	right:10,
+	color:"#999",
+	font:{
+		fontSize: 10
+	}
+}

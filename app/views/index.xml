@@ -1,26 +1,11 @@
 <Alloy>
+	<!-- global collection. Access with: Alloy.Collections.library -->
 	<Collection src="library"/>
 
-	<Window class="container">
-
-		<ListView id="listView" defaultItemTemplate="template">
-
-			<Templates>
-				<ItemTemplate name="template">
-					<ImageView bindId="image" class="img"/>
-					<Label bindId="title" class="title"/>
-					<Label bindId="subtitle" class="subtitle"/>
-					<Label class="deleteText" text="click to delete"/>
-				</ItemTemplate>
-			</Templates>
-
-			<ListSection id="section" dataCollection="library">
-				<ListItem rowid="{id}" title:text="{title}" subtitle:text="{subtitle}" image:image="{image}"/>
-			</ListSection>
-		</ListView> 
-
-		<Button id="btn_add" title="add"/>
-		<Button id="btn_dump" title="dump"/>
-		<Button id="btn_clear" title="clear"/>
+	<Window>
+		<View class="content">
+			<Button id="btn1" title="Basic example (Bind collection)"/>
+			<Button id="btn2" title="Bind one model"/>
+		</View>
 	</Window>
 </Alloy>

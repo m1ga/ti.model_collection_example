@@ -1,0 +1,13 @@
+<Alloy>
+	<!-- add the model -->
+	<Model src="library" id="currentId" instance="true"/>
+    <Window>
+		<Button id="btn_close" title="close"/>
+        <View top="50" layout="vertical">
+			<!-- assign model fields by id -->
+            <Label text="{$.currentId.title}"/>
+            <Label text="{$.currentId.subtitle}"/>
+            <Label text="{$.currentId.image}"/>
+        </View>
+    </Window>
+</Alloy>
