@@ -1,9 +1,39 @@
-
-".content": {
-	layout:"vertical",
-	top:30
+"Window" : {
+	backgroundColor: "white"
 }
-
+"Label" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+".title" : {
+	left: 85,
+	top: 5
+}
+".subtitle" : {
+	left: 85,
+	bottom: 5
+}
+".img" : {
+	left: 0,
+	width: 80,
+	height: 80,
+	backgroundColor: "#aaa"
+}
+"ListItem" : {
+	height: 80
+}
+"ListView" : {
+	bottom: 50
+}
+"#btn_add" : {
+	bottom: 0,
+	left: 10
+}
+"#btn_clear" : {
+	bottom: 0,
+	right: 10
+}
 '#btn_one': {
 	bottom: 0
 }
