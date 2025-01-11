@@ -1,0 +1,6 @@
+<Alloy>
+	<Model src="library" instance="true" id="current"/>
+	<Window>
+		<Label text="{$.current.title}"/>
+	</Window>
+</Alloy>

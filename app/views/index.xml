@@ -13,12 +13,13 @@
 				</ItemTemplate>
 			</Templates>
 
-			<ListSection id="section" dataCollection="library">
-				<ListItem rowid="{id}" title:text="{title}" subtitle:text="{subtitle}" image:image="{image}"/>
+			<ListSection id="section" dataCollection="library" dataFilter="dataFilter">
+				<ListItem title:text="{title}" subtitle:text="{subtitle}" image:image="{image}" properties:rowid="{id}"/>
 			</ListSection>
 		</ListView>
 
-		<Button id="btn_add" title="add"/>
-		<Button id="btn_clear" title="clear"/>
+		<Button id="btn_add" title="add" onClick="onClickAdd"/>
+		<Button id="btn_one" title="one item" onClick="onClickOne"/>
+		<Button id="btn_clear" title="clear" onClick="onClickClear"/>
 	</Window>
 </Alloy>
